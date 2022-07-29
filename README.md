@@ -1,3 +1,3 @@
-## A fictional Website (replica of tinder)
+# A fictional Website (replica of tinder)
 
-# Built using bootstrap 4
+## Built using bootstrap 4
