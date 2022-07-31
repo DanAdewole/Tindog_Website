@@ -1,36 +1,66 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
-#title {
-	background-color: #ff4c68;
-	color: white;
-	/* position: relative;
-	z-index: -1; */
-}
-
-.container-fluid {
-	padding: 5% 15%;
-}
-
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 3.5rem;
-	line-height: 1.5;
-	font-weight: 900;
-}
-
-h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3rem;
 	font-weight: bold;
-	line-height: 1.5;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 p {
 	color: #8f8f8f;
 	font-weight: 500;
 }
+
+
+/* Containers */
+
+.container-fluid {
+	padding: 5% 15%;
+}
+
+
+/* Sections */
+
+.white-section {
+	background-color: #fff;
+}
+
+.colored-section {
+	background-color: #ff4c68;
+	color: white;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.session-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+
+
+/* Title Session */
+
+#title .container-fluid {
+	padding: 2% 15% 6%;
+	text-align: left;
+}
+
 
 /* Navigation Bar */
 
@@ -75,18 +105,15 @@ p {
 /* Features Section */
 
 #features {
-	background-color: #fff;
 	position: relative;
+}
+
+.feature-title {
+	font-size: 1.5rem;
 }
 
 .row-feature-style {
 	padding: 4rem 0 4rem;
-}
-
-.feature-head {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
-	font-weight: bold;
 }
 
 .feature-icon {
@@ -100,17 +127,19 @@ p {
 
 .feature-box {
 	padding: 0 3% 0;
-	text-align: center;
 }
 
 
 /* Testimonial Section */
 
 #testimonials {
-	text-align: center;
 	padding: 5rem 0 4rem;
 	background-color: #ef8172;
-	color: #fff;
+}
+
+.testimonial-text {
+	line-height: 1.5;
+	font-size: 3rem;
 }
 
 .testimonial-image {
@@ -124,7 +153,6 @@ p {
 
 #press {
 	background-color: #ef8172;
-	text-align: center;
 	padding-bottom: 3%;
 }
 
@@ -136,8 +164,9 @@ p {
 
 /* Pricing Section */
 
-#pricing {
-	text-align: center;
+.price-text {
+	line-height: 1.5;
+	font-size: 3rem;
 }
 
 .pricing-column {
@@ -148,18 +177,7 @@ p {
 /* CTA */
 
 #cta {
-	text-align: center;
-	background-color: #ff4c68;
 	padding: 4% 0 0;
-}
-
-.cta-title {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3.5rem;
-	font-weight: 900;
-	line-height: 1.5;
-	color: #fff;
-
 }
 
 button {
@@ -172,7 +190,6 @@ button {
 /* Footer Section */
 
 #footer {
-	text-align: center;
 	padding: 3% 0 3%;
 }
 
